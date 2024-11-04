@@ -5,11 +5,11 @@ services:
   # We do this to avoid making too many image pulls from 
   # the Docker Hub, which has set limit for anonymous users.  
   # This container will exit as soon as it starts.
-  seed_base_bind:
-    build: ./base_image
-    image: seed-base-image-bind
-    container_name: seed-base-bind
-    command: " echo 'exiting ...' "
+  # seed_base_bind:
+  #   build: ./base_image
+  #   image: seed-base-image-bind
+  #   container_name: seed-base-bind
+  #   command: " echo 'exiting ...' "
 
   spare_nameserver:
     build:
@@ -71,7 +71,7 @@ services:
   user:
     build: ./user
     image: seed-user
-    container_name: user-10.9.0.5
+    container_name: dnssec-user-10.9.0.5
     tty: true
     cap_add:
            - ALL

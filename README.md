@@ -577,15 +577,7 @@ I found it sometimes hard to get my head around what actually does behind the sc
 I learned how to configure a nameserver for DNSSEC by generating ZSK and KSK, signing the zone file, and adding DS records. I also learned how to set up a local DNS server to validate DNSSEC responses using a trust anchor and ensures accurate domain resolution with authenticity checks.
 
 ## Reflections
-I have learnt a lot about network security than I've ever learnt in any other times at uni. I have always been really interested in computer networks and applications, so seeing the security aspect on top of network is always really interesting.
-
-Even though in network security, there's not actually many lines of codes, but to understand the mechanism behind it is the hardest part! I  am confident enough to say that I have a decent knowledge about DNS Security after I did this project.
-
-There are a lot of challenges around reading the documents, papers and books about network security but I felt like this is gonna be beneficial for me in a lot of aspects of computer science. Understanding network security is crucial in many fields, especially in areas like high-frequency trading, where data integrity and secure communication are very significant. 
-
- Overall, this experience has not only enhanced my technical knowledge but has also contributed to my professional growth, preparing me for more advanced topics in the field.
-
-
+I have always been really interested in computer networks and applications, so seeing the security aspect on top of network is always really interesting. Even though in network security, there's not actually many lines of codes, but to understand the mechanism behind it is the hardest part! Understanding network security is crucial in many fields, especially in areas like high-frequency trading, where data integrity and secure communication are very significant. 
 
 ## References
 
